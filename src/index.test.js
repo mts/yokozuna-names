@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var yokozuna = require('./index');
+import {expect} from 'chai';
+import yokozuna from './index';
 
 describe('yokozuna-names', function() {
   describe('all', function() {

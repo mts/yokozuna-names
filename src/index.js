@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array');
-var yokozunaNames = require('./yokozuna-names.json');
+import uniqueRandomArray from 'unique-random-array';
+import yokozunaNames from './yokozuna-names.json';
+
 var getRandomItem = uniqueRandomArray(yokozunaNames);
 
 module.exports = {

@@ -1,6 +1,5 @@
 # yokozuna-names
 
-
 [![travis build](https://img.shields.io/travis/mts/yokozuna-names.svg?style=flat-square)](https://travis-ci.org/mts/yokozuna-names)
 [![codecov coverage](https://img.shields.io/codecov/c/github/codecov/example-python.svg?style=flat-square)](https://codecov.io/github/mts/yokozuna-names)
 [![version](https://img.shields.io/npm/v/yokozuna-names.svg?style=flat-square)](http://npm.im/yokozuna-names)
