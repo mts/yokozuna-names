@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/mts/yokozuna-names#readme",
   "dependencies": {
-    "keytar": "4.3.0",
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
