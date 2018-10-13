@@ -1,0 +1,22 @@
+{
+  "name": "yokozuna-names",
+  "version": "1.0.0",
+  "description": "Get random Yokozuna names",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mts/yokozuna-names.git"
+  },
+  "keywords": [
+    "random",
+    "yokozuna"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mts/yokozuna-names/issues"
+  },
+  "homepage": "https://github.com/mts/yokozuna-names#readme"
+}
