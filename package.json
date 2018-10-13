@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mts/yokozuna-names/issues"
   },
-  "homepage": "https://github.com/mts/yokozuna-names#readme"
+  "homepage": "https://github.com/mts/yokozuna-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.1"
+  }
 }
