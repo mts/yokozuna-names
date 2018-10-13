@@ -11,4 +11,4 @@ script:
   - npm run build
 after_success:
   - npm run report-coverage
-  - npm run publish
+  - npm run travis-deploy-once "npm run semantic-release"
