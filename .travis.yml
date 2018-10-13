@@ -1,16 +1,18 @@
+sudo: false
 language: node_js
 cache:
   directories:
-    - ~/.npm
+    - node_modules
 notifications:
-  email: false
+  email:
+    false
 node_js:
-  - '10'
-  - '9'
-  - '8'
-  - '6'
+  - "iojs"
+before_install:
+  - npm i -g npm@^6.4.1
+before_script:
+  - npm prune
+script:
+  - npm run test
 after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  - npm run semantic-release
