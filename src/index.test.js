@@ -23,5 +23,13 @@ describe('yokozuna-names', function() {
       var randomItem = yokozuna.random();
       expect(yokozuna.all).to.include(randomItem);
     });
+
+    it('should return an array of random items if passed a number', function() {
+      var randomItems = yokozuna.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item) {
+        expect(yokozuna.all).to.include(item);
+      });
+    });
   });
 });
