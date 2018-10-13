@@ -1,3 +1,5 @@
+![Logo](/logo.png)
+
 # yokozuna-names
 
 [![travis build](https://img.shields.io/travis/mts/yokozuna-names.svg?style=flat-square)](https://travis-ci.org/mts/yokozuna-names)
