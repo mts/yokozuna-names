@@ -2,7 +2,26 @@ var expect = require('chai').expect;
 var yokozuna = require('./index');
 
 describe('yokozuna-names', function() {
-  it('should work!', function() {
-    expect(true).to.be.true;
+  describe('all', function() {
+    it('should be an array of strings', function() {
+      expect(yokozuna.all).to.satisfy(isArrayOfStrings);
+
+      function isArrayOfStrings(array) {
+        return array.every(function(item) {
+          return typeof item === 'string';
+        })
+      }
+    });
+
+    it('should contain Forrest Gump', function() {
+      expect(yokozuna.all).to.include('Forrest Gump');
+    });
+  });
+
+  describe('random', function() {
+    it('should return a random item fro the yokozuna.all', function() {
+      var randomItem = yokozuna.random();
+      expect(yokozuna.all).to.include(randomItem);
+    });
   });
 });
