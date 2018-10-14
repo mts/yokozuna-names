@@ -1,6 +1,6 @@
 {
   "name": "yokozuna-names",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Get random Yokozuna names",
   "main": "dist/index",
   "scripts": {
